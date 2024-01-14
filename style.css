@@ -12,7 +12,7 @@
 }
 
 
-      /* Navbar Styles */
+/* Navbar Styles */
 
 
 nav {
@@ -25,7 +25,7 @@ nav {
 .logo {
     width: 65%;
     padding-top: 13px;
-    
+
 }
 
 .logo img {
@@ -56,7 +56,8 @@ nav {
     border: 1px solid #E11F72;
     transition: .4s;
 }
-.white-button a{
+
+.white-button a {
 
     text-decoration: none;
     color: #E11F72;
@@ -80,11 +81,12 @@ nav {
     transition: .4s;
 }
 
-.pink-button a{
+.pink-button a {
     text-decoration: none;
     color: white;
 }
-.pink-button:hover{
+
+.pink-button:hover {
     box-shadow: 1px 1px 3px black;
 }
 
@@ -104,19 +106,19 @@ nav {
 /* Hero Styles */
 
 
-.hero-main{
+.hero-main {
     width: 100%;
     height: 85vh;
     display: flex;
     background-color: #F7F7F7;
 }
 
-.hero-text{
+.hero-text {
     width: 65%;
     height: 100%;
 }
 
-.hero-text > p{
+.hero-text>p {
     width: 90%;
     font-size: 50px;
     line-height: 1.3em;
@@ -125,7 +127,7 @@ nav {
 
 }
 
-.hero-input{
+.hero-input {
     width: 80%;
     height: 15%;
     margin-top: 10px;
@@ -138,7 +140,7 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.hero-input-box{
+.hero-input-box {
     width: 80%;
     height: 90%;
     font-size: 1.1em;
@@ -149,7 +151,7 @@ nav {
 
 }
 
-.hero-input i{
+.hero-input i {
     color: #E11F72;
     font-size: 1.4em;
     position: relative;
@@ -158,7 +160,7 @@ nav {
 
 }
 
-.find-food-button{
+.find-food-button {
     font-size: 1.2em;
     width: 120px;
     height: 50px;
@@ -174,13 +176,81 @@ nav {
     box-shadow: 2px 1px 5px black;
 }
 
-.hero-box{
+.hero-box {
     width: 35%;
     height: 100%;
 }
 
-.hero-box img{
+.hero-box img {
     width: 100%;
     height: 100%;
     background-color: #F7F7F7;
+}
+
+.text {
+    width: 100%;
+    height: 20vh;
+}
+
+.text>p {
+    display: inline-block;
+    font-size: 2.8em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+/* chef styles */
+
+.chef-box {
+    width: 100%;
+    height: 80vh;
+}
+
+.chef-box img {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.chef-content{
+    width: 50%;
+    height: 55vh;
+    background-color: white;
+    margin-left: 2.7em;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: relative;
+    top: 13em;
+}
+
+.chef-content > h4{
+    width: 100%;
+    font-size: 28px;
+}
+
+.chef-content p{
+    font-size: 20px;
+    word-spacing: 2px;
+    margin-top: 25px;
+}
+
+.chef-content button{
+    width: 150px;
+    height: 50px;
+    margin-top: 1.5em;
+    background-color: #E11F72;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.chef-content button:hover{
+    box-shadow: rgba(0, 0, 0) 3px 3px 5px;
+
 }
