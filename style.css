@@ -254,3 +254,71 @@ nav {
     box-shadow: rgba(0, 0, 0) 3px 3px 5px;
 
 }
+
+
+    /* cities styles */
+
+.cities-container{
+    width: 100%;
+    height: 282vh;
+    margin-top: 5em;
+    padding-left: 2.5em;
+}
+
+.cities-container > p{
+    font-size: 2.3em;
+    padding-top: 1em;
+    padding-left: 15px;
+}
+
+.cities{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.card{
+    width: 22%;
+    height: 12%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 20px;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.card img:hover{
+    
+    transform: scale(1.1);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.card p{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-left: 5px;
+    padding-top: 6px;
+    border: 1px solid #E11F72;
+    color: #E11F72;
+    cursor: pointer;
+    transition: .4s;
+    
+}
+
+.card p:hover{
+    background-color: #E11F72;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 4px 4px 2px;
+
+
+}
