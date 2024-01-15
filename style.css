@@ -44,6 +44,7 @@ nav {
 }
 
 
+
 .white-button {
     font-size: 1.2em;
     width: 30%;
@@ -51,17 +52,12 @@ nav {
     height: 70%;
     background-color: white;
     border-radius: 10px;
-    padding: 5px 10px;
-    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
     border: 1px solid #E11F72;
-    transition: .4s;
-}
-
-.white-button a {
-
     text-decoration: none;
     color: #E11F72;
-
+    transition: .4s;
 }
 
 .white-button:hover {
@@ -73,15 +69,12 @@ nav {
     width: 30%;
     height: 70%;
     background-color: #E11F72;
-    font-weight: bold;
     cursor: pointer;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 10px 0px;
+    text-align: center;
     border: none;
     transition: .4s;
-}
-
-.pink-button a {
     text-decoration: none;
     color: white;
 }
@@ -213,7 +206,7 @@ nav {
     z-index: -1;
 }
 
-.chef-content{
+.chef-content {
     width: 50%;
     height: 55vh;
     background-color: white;
@@ -225,18 +218,18 @@ nav {
     top: 13em;
 }
 
-.chef-content > h4{
+.chef-content>h4 {
     width: 100%;
     font-size: 28px;
 }
 
-.chef-content p{
+.chef-content p {
     font-size: 20px;
     word-spacing: 2px;
     margin-top: 25px;
 }
 
-.chef-content button{
+.chef-content button {
     width: 150px;
     height: 50px;
     margin-top: 1.5em;
@@ -250,56 +243,58 @@ nav {
 
 }
 
-.chef-content button:hover{
+.chef-content button:hover {
     box-shadow: rgba(0, 0, 0) 3px 3px 5px;
 
 }
 
 
-    /* cities styles */
+/* cities styles */
 
-.cities-container{
+.cities-container {
     width: 100%;
     height: 282vh;
     margin-top: 5em;
     padding-left: 2.5em;
 }
 
-.cities-container > p{
+.cities-container>p {
     font-size: 2.3em;
     padding-top: 1em;
     padding-left: 15px;
 }
 
-.cities{
+.cities {
     width: 100%;
     height: 100%;
     padding: 10px 20px;
 }
 
-.card{
+.card {
     width: 22%;
     height: 12%;
     display: inline-block;
     margin-top: 40px;
     margin-left: 25px;
     border-radius: 20px;
-    
+
 }
-.card img{
+
+.card img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
     cursor: pointer;
     transition: .3s;
 }
-.card img:hover{
-    
+
+.card img:hover {
+
     transform: scale(1.1);
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-.card p{
+.card p {
     width: 120px;
     height: 35px;
     font-size: 20px;
@@ -312,10 +307,10 @@ nav {
     color: #E11F72;
     cursor: pointer;
     transition: .4s;
-    
+
 }
 
-.card p:hover{
+.card p:hover {
     background-color: #E11F72;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 4px 4px 2px;
@@ -324,15 +319,15 @@ nav {
 }
 
 
-    /* app */
+/* app */
 
-.text-line{
+.text-line {
     margin-top: 4.5em;
     font-size: 2.5em;
     margin-left: 2em;
 }
 
-.app-cover{
+.app-cover {
     width: 90%;
     height: 55vh;
     margin: 50px auto;
@@ -342,24 +337,24 @@ nav {
     display: flex;
 }
 
-.app-cover-content{
+.app-cover-content {
     width: 50%;
     height: 100%;
     padding: 20px 35px;
 }
 
-.app-cover-content-heading{
+.app-cover-content-heading {
     font-size: 2em;
     padding-top: 10px;
 }
 
-.cover-content-des{
+.cover-content-des {
     width: 80%;
     font-size: 1.2em;
     word-spacing: 5px;
 }
 
-.qr-code{
+.qr-code {
     width: 20%;
     height: 43%;
     margin-top: 15px;
@@ -367,20 +362,81 @@ nav {
     border-radius: 3px;
 }
 
-.app-store{
+.app-store {
     width: 25%;
     height: 40%;
     margin-left: 2em;
 }
 
-.app-cover-image{
+.app-cover-image {
     width: 45%;
     height: 95%;
 }
 
-.app-cover-image img{
+.app-cover-image img {
     width: 100%;
     height: 150%;
     margin-top: -8em;
 
+}
+
+
+/* flayer */
+
+.flayer {
+    width: 100%;
+    height: 70vh;
+}
+
+.flayer>p {
+    font-size: 35px;
+    padding-left: 2em;
+}
+
+.flayer img {
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.flayer-content {
+    width: 45%;
+    height: 35vh;
+    position: relative;
+    left: 3em;
+    bottom: 10em;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flayer-content-head {
+    font-size: 30px;
+}
+
+.flayer-content-des {
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 1.3em;
+    width: 90%;
+}
+
+.flayer-content button {
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 10px;
+    color: white;
+    background-color: #E11F72;
+    border: none;
+    margin-top: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.flayer-content button:hover {
+    background-color: #E11F72;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 4px 4px 2px;
 }
