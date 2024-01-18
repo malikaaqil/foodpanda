@@ -17,44 +17,21 @@
 
 nav {
     width: 100%;
-    height: 10vh;
-
-    .head1{
-    margin: 20px
-    padding:20px
-}
-
-
-.para1{
-    margin: 20px
-    padding:20px
-}
-
-
-
-
-.para2  {
-    margin: 20px
-    padding:20px
-}
-
-.head2{
-    margin: 20px
-    padding:20px
-}
+    /* height: 10vh; */
+    padding: 8px 0px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     display: flex;
 }
 
 .logo {
     width: 65%;
-    padding-top: 13px;
+    padding-top: 10px;
 
 }
 
 .logo img {
     width: 20%;
-    height: 6vh;
+    /* height: 6vh; */
     margin-left: 3em;
     cursor: pointer;
 }
@@ -73,7 +50,7 @@ nav {
     font-size: 1.2em;
     width: 30%;
     cursor: pointer;
-    height: 70%;
+    /* height: 70%; */
     background-color: white;
     border-radius: 10px;
     padding: 10px 0px;
@@ -91,7 +68,7 @@ nav {
 .pink-button {
     font-size: 1.2em;
     width: 30%;
-    height: 70%;
+    /* height: 70%; */
     background-color: #E11F72;
     cursor: pointer;
     border-radius: 10px;
@@ -109,13 +86,13 @@ nav {
 
 .cart-icon {
     width: 10%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .cart-icon i {
     font-size: 2em;
     color: #E11F72;
-    padding-top: 20px;
+    padding-top: 10px;
     cursor: pointer;
 }
 
@@ -232,7 +209,7 @@ nav {
 
 .chef-content {
     width: 50%;
-    height: 55vh;
+    /* height: 55vh; */
     background-color: white;
     margin-left: 2.7em;
     padding: 35px 30px;
@@ -275,31 +252,40 @@ nav {
 
 /* cities styles */
 
-.cities-container {
-    width: 100%;
-    height: 282vh;
-    margin-top: 5em;
-    padding-left: 2.5em;
-}
-
-.cities-container>p {
+.cities-para{
     font-size: 2.3em;
+    margin-top: 2em;
+    margin-left: 1em;
     padding-top: 1em;
     padding-left: 15px;
+}
+
+.cities-container {
+    width: 90%;
+    height: 282vh;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cities {
     width: 100%;
     height: 100%;
-    padding: 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 20px; */
 }
 
 .card {
-    width: 22%;
+    width: 21%;
     height: 12%;
     display: inline-block;
     margin-top: 40px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    flex-wrap: wrap;
+
     border-radius: 20px;
 
 }
@@ -425,7 +411,7 @@ nav {
 
 .flayer-content {
     width: 45%;
-    height: 35vh;
+    /* height: 35vh; */
     position: relative;
     left: 3em;
     bottom: 10em;
@@ -464,12 +450,49 @@ nav {
     color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 4px 4px 2px;
 }
-/* <<<<<<< patch-2>>>>> */
+
+
+/* headings */
+
+.headings{
+    margin-top: 12em;
+}
+
+.head1{
+    margin: 20px;
+    padding:20px;
+}
+
+
+.para1{
+    margin: 20px;
+    padding:20px;
+}
+
+
+
+
+.para2  {
+    margin: 20px;
+    padding:20px;
+}
+
+.head2{
+    margin: 20px;
+    padding:20px;
+}
+
+
+
 /* Footer */
+
+
 footer {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  /* border: 2px solid black; */
+  /* margin-top: 5em; */
 }
 
 footer .divider {
@@ -512,8 +535,7 @@ footer .branding {
 
 .links .col {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 30px;
   justify-content: center;
   margin-top: 0.5rem;
   line-height: 1.7rem;
@@ -557,5 +579,5 @@ footer .branding {
   background-color: rgb(137, 135, 135);
   margin: 0 1rem;
   height: 18px;
+
 }
-/* >>>>>>> main */
